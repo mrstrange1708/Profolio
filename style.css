@@ -173,7 +173,7 @@ section {
   display: flex;
   height: 300px;
   width: 300px;
-  margin: auto 0;
+  margin: 0;
 }
 
 .section__pic-container img{
@@ -181,6 +181,7 @@ section {
 }
 
 .section__text {
+  margin-left: 0px;
   align-self: center;
   text-align: center;
 }
@@ -315,7 +316,7 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* skills SECTION */
 
 #experience {
   position: relative;
@@ -329,7 +330,8 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
+  display: grid;
+  grid-row: 1/3;
   justify-content: center;
   flex-direction: column;
 }
@@ -368,7 +370,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 70%;
-  height: 70%;
+  /* height: 50%; */
 }
 
 .project-title {
